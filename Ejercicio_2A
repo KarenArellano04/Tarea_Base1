@@ -1,0 +1,9 @@
+drop table if exists agenda; //elimina la tabla agenda si existe
+
+create table agenda(
+ nombre varchar(20),
+   domicilio varchar(30),
+   telefono varchar(11)
+   )
+   show tables agenda;
+   describe agenda;
